@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  color: #fff;
+ background-color: #00C853;  /* verde */
+ padding: 20px 0;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+
+}
+
+.container {
+  position: fixed;
+  top: 0;
+ left: 0;
+ right: 0;
+}
+
+.home {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Century gothic", "Arial", "sans-serif";
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #212121;
+  text-decoration: none;
+}
+a:active {
+  color: #fff;
+}
+
+.intestazione {
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  padding-top: 50px;
+}
+
+.intro {
+ width: 900px;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 10px 10px;
+ border-top: 3px solid #fff;
+ border-bottom: 3px solid #fff;
+}
+
+.intro1 h1 {
+  font-family: "Century gothic", "Arial", "sans-serif";
+  font-size: 100px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.intro h2 {
+  width: 300px;
+  height: 300px;
+  font-family: "Century gothic", "Arial", "sans-serif";
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.progetto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #EEEEEE;
+}
+
+.progetto1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+.progetto1 h1{
+  margin-bottom: 20px;
+  margin-left: 15px;
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 38px;
+  font-weight: bolder
+
+}
+
+.progetto1 img {
+  width: 250px;
+  border-radius: 125px;
+  margin-top: 20px;
+
+}
+
+.progetto2 {
+  display: flex;
+  width: 700px;
+  padding-top: 80px;
+}
+
+.progetto2,
+.spieg,
+.spieg1 {
+  font-family: "Century gothic", "Arial", "sans-serif";
+  font-size: 18px;
+  line-height: 43px;
+}
+
+.progetto2 p {
+  color: #00C853;
+}
+
+.spieg-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #EEEEEE;
+  padding-bottom: 100px;
+}
+
+.spieg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.spieg img {
+  width: 200px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.spieg h1 {
+  color: #00C853;
+}
+
+.spieg1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.spieg2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.spieg2 img {
+  width: 400px;
+  height: 178px;
+  border-radius: 50px;
+
+}
+
+.container-rana {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.me-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #EEEEEE;
+  padding-top: 100px;
+}
+
+.about-me {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.description {
+  max-width: 400px;
+}
+
+.description h1,
+.skills h1 {
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.description p {
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 18px;
+  line-height: 1.6;
+
+}
+
+.description a:link {
+  color: #00C853;
+}
+
+.description a:visited {
+  color: #00C853;
+}
+
+.description a:hover {
+  color: #00C853;
+}
+
+.description a:active {
+  color: #00C853;
+}
+
+.photo img {
+  width: 250px;
+  border-radius: 125px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.coding,
+.math,
+.music {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00C853;
+  margin: 50px 10px;
+  padding-bottom: 10px;
+}
+
+.coding img,
+.math img,
+.music img {
+  width: 80px;
+}
+
+.coding h2,
+.math h2,
+.music h2 {
+  color:#00E676;
+  font-size: 32px;
+  padding: 25px;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+}
+
+.coding h3,
+.math h3,
+.music h3 {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  color: #EEEEEE;
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+  body {
+    display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+
+    }
+
+  }
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+
+
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+
+
+}
+}
