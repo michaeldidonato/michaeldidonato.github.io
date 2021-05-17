@@ -190,7 +190,8 @@ a:active {
 
 }
 
-.me-container {
+.me-container,
+.philo-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -210,14 +211,17 @@ a:active {
 }
 
 .description h1,
-.skills h1 {
+.skills h1,
+.lotus h1
+ {
   color: #212121;
   font-family: "Century Gothic", "Arial", "sans-serif";
   font-size: 38px;
   margin-bottom: 20px;
 }
 
-.description p {
+.description p,
+.lotus-par {
   color: #212121;
   font-family: "Century Gothic", "Arial", "sans-serif";
   font-size: 18px;
@@ -225,19 +229,27 @@ a:active {
 
 }
 
-.description a:link {
+.description,
+.lotus
+ a:link {
   color: #00C853;
 }
 
-.description a:visited {
+.description,
+.lotus
+ a:visited {
   color: #00C853;
 }
 
-.description a:hover {
+.description,
+.lotus
+ a:hover {
   color: #00C853;
 }
 
-.description a:active {
+.description,
+.lotus
+ a:active {
   color: #00C853;
 }
 
@@ -291,6 +303,18 @@ a:active {
   color: #EEEEEE;
 }
 
+
+.philosophy
+ {
+  display: flex;
+  width: 900px;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+.lotus-par {
+  margin-top: 30px;
+}
 
 
 
