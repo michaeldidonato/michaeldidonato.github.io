@@ -66,8 +66,6 @@ a:active {
  align-items: center;
  flex-wrap: wrap;
  padding: 10px 10px;
- border-top: 3px solid #fff;
- border-bottom: 3px solid #fff;
 }
 
 .intro1 h1 {
@@ -80,6 +78,8 @@ a:active {
 .intro h2 {
   width: 300px;
   height: 300px;
+  text-align: center;
+  line-height: 1.6;
   font-family: "Century gothic", "Arial", "sans-serif";
   font-size: 30px;
   font-weight: bolder;
@@ -328,9 +328,13 @@ a:link {
   flex-wrap: wrap;
 }
 
+.lotus {
+  margin-left: 10px;
+}
+
 .lotus-par {
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 
