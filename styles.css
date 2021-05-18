@@ -229,25 +229,41 @@ a:active {
 
 }
 
-.description,
-.lotus
+.description
  a:link {
   color: #00C853;
 }
 
-.description,
+.description
+ a:visited {
+  color: #00C853;
+}
+
+.description
+ a:hover {
+  color: #00C853;
+}
+
+.description
+ a:active {
+  color: #00C853;
+}
+
+.lotus
+a:link {
+  color: #00C853;
+}
+
 .lotus
  a:visited {
   color: #00C853;
 }
 
-.description,
 .lotus
  a:hover {
   color: #00C853;
 }
 
-.description,
 .lotus
  a:active {
   color: #00C853;
@@ -314,6 +330,7 @@ a:active {
 
 .lotus-par {
   margin-top: 30px;
+  margin-left: 30px;
 }
 
 
@@ -325,6 +342,7 @@ a:active {
         flex-direction: column;
         min-height: 100vh;
         justify-content: center;
+
 
     }
 
