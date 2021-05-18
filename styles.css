@@ -319,13 +319,13 @@ a:link {
   color: #EEEEEE;
 }
 
-
 .philosophy
  {
   display: flex;
   width: 900px;
   padding-top: 30px;
   flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 
 .lotus {
@@ -337,6 +337,19 @@ a:link {
   margin-left: 10px;
 }
 
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #7C4DFF;
+  height: 100px;
+}
+
+.message {
+  width: 40px;
+  margin: 0 10px;
+}
 
 
 
