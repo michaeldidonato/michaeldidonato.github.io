@@ -214,7 +214,6 @@ a:active {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 30px;
 }
 
 .me-container,
@@ -223,7 +222,6 @@ a:active {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #EEEEEE;
-  padding-top: 100px;
 }
 
 .about-me {
