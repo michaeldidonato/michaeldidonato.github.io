@@ -396,27 +396,5 @@ a:link {
         flex-direction: column;
         min-height: 100vh;
         justify-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
-
-
     }
-
   }
-
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-
-
-  }
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  body {
-
-
-}
-}
