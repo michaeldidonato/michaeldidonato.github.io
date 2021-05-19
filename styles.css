@@ -195,7 +195,7 @@ a:active {
   flex-wrap: wrap;
   background-color: #EEEEEE;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .icon {
@@ -225,7 +225,7 @@ a:active {
 }
 
 .me-container {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .about-me {
@@ -262,7 +262,6 @@ a:active {
   font-family: "Century Gothic", "Arial", "sans-serif";
   font-size: 18px;
   line-height: 1.6;
-
 }
 
 .description
@@ -315,6 +314,7 @@ a:link {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .coding,
@@ -364,6 +364,7 @@ a:link {
   padding-bottom: 100px;
 }
 
+
 .lotus {
   margin-left: 10px;
 }
@@ -378,7 +379,7 @@ a:link {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #7C4DFF;
+  background-color: #B388FF;
   height: 100px;
 }
 
