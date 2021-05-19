@@ -224,6 +224,10 @@ a:active {
   background-color: #EEEEEE;
 }
 
+.me-container {
+  padding-top: 50px;
+}
+
 .about-me {
   width: 900px;
   display: flex;
@@ -233,6 +237,7 @@ a:active {
 
 .description {
   max-width: 400px;
+  margin-top: 30px;
 }
 
 .description h1,
@@ -244,6 +249,10 @@ a:active {
   font-family: "Century Gothic", "Arial", "sans-serif";
   font-size: 38px;
   margin-bottom: 20px;
+}
+
+.description h1 {
+  text-align: center;
 }
 
 .description p,
