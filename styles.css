@@ -400,7 +400,7 @@ a:link {
     }
   }
 
-@media only screen and (max-width: 901px) {
+@media only screen and (min-width: 961px) {
   body {
     .area-container {
       display: flex;
