@@ -399,3 +399,12 @@ a:link {
         justify-content: center;
     }
   }
+
+@media only screen and (max-width: 901px) {
+  body {
+    .area-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
