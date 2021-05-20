@@ -126,6 +126,7 @@ a:active {
   display: flex;
   width: 700px;
   padding-top: 80px;
+  padding-left: 5px;
 }
 
 .progetto2,
@@ -178,6 +179,7 @@ a:active {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding-left: 5px;
 }
 
 .area-container {
