@@ -132,8 +132,9 @@ a:active {
 .spieg,
 .spieg1 {
   font-family: "Century gothic", "Arial", "sans-serif";
-  font-size: 18px;
+  font-size: 16px;
   line-height: 43px;
+
 }
 
 .progetto2 p {
@@ -143,8 +144,8 @@ a:active {
 .spieg-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-around;
   background-color: #EEEEEE;
   padding-bottom: 100px;
 }
@@ -159,6 +160,7 @@ a:active {
   width: 200px;
   border-radius: 50px;
   margin-left: 20px;
+  margin-top: 10px;
 }
 
 .spieg h1 {
@@ -171,25 +173,11 @@ a:active {
   margin-top: 50px;
 }
 
-.spieg2 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.spieg2 img {
-  width: 400px;
-  height: 178px;
-  border-radius: 50px;
-
-}
-
 .container-rana {
-  width: 700px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 
 .area-container {
