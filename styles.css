@@ -48,7 +48,7 @@ a:active {
   color: #fff;
 }
 
-.intestazione {
+.intestation {
   height: 800px;
   display: flex;
   flex-wrap: wrap;
@@ -88,7 +88,7 @@ a:active {
   color: #fff;
 }
 
-.progetto {
+.project {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -98,38 +98,37 @@ a:active {
   background-color: #FFF;
 }
 
-.progetto1 {
+.project1 {
   display:flex;
   flex-direction: column;
-  justify-content: center;
   width: 300px;
 }
 
-.progetto1 h1{
+.project1 h1{
   margin-bottom: 20px;
   margin-left: 15px;
   color: #212121;
   font-family: "Century Gothic", "Arial", "sans-serif";
   font-size: 38px;
   font-weight: bolder
-
+  margin: 0 auto;
 }
 
-.progetto1 img {
+.project1 img {
   width: 250px;
   border-radius: 125px;
-  margin-top: 20px;
+  margin: 0 auto;
 
 }
 
-.progetto2 {
+.project2 {
   display: flex;
   width: 700px;
   padding-top: 80px;
   padding-left: 5px;
 }
 
-.progetto2,
+.project2,
 .spieg,
 .spieg1 {
   font-family: "Century gothic", "Arial", "sans-serif";
@@ -138,7 +137,7 @@ a:active {
 
 }
 
-.progetto2 p {
+.project2 p {
   color: #00C853;
 }
 
@@ -174,7 +173,7 @@ a:active {
   margin-top: 50px;
 }
 
-.container-rana {
+.container-frog {
   width: 600px;
   display: flex;
   flex-direction: column;
@@ -383,8 +382,6 @@ a:link {
   margin: 0 10px;
 }
 
-
-
 @media only screen and (max-width: 400px) {
   body {
     display: flex;
@@ -392,13 +389,5 @@ a:link {
         min-height: 100vh;
         justify-content: center;
     }
-  }
 
-@media only screen and (min-width: 961px) {
-  body {
-    .area-container {
-      display: flex;
-      flex-direction: column;
-    }
   }
-}
