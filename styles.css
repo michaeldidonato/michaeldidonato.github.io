@@ -114,10 +114,10 @@ a:active {
 }
 
 .project1 img {
-  width: 250px;
+  width: 230px;
   border-radius: 125px;
   margin: 0 auto;
-
+  margin-top: 10px;
 }
 
 .project2 {
@@ -159,7 +159,6 @@ a:active {
   width: 200px;
   border-radius: 50px;
   margin-left: 20px;
-  margin-top: 10px;
 }
 
 .spieg h1 {
@@ -169,7 +168,6 @@ a:active {
 .spieg1 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
 }
 
 .container-frog {
@@ -234,7 +232,6 @@ a:active {
 
 .description h1,
 .skills h1,
-.lotus h1,
 .area-title h1
  {
   color: #212121;
@@ -357,13 +354,21 @@ a:link {
   padding-top: 100px;
 }
 
+.lotus h1 {
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 38px;
+}
+
+.lotus img {
+  width: 150px;
+}
 
 .lotus {
   margin-left: 10px;
 }
 
 .lotus-par {
-  margin-top: 30px;
   margin-left: 5px;
 }
 
@@ -372,7 +377,7 @@ a:link {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #B388FF;
+  background-color: #00C853;
   height: 100px;
 }
 
