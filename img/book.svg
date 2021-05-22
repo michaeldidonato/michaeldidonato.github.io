@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 595.28" style="enable-background:new 0 0 595.28 595.28;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+</style>
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="42.4965" y1="299.7377" x2="538.8369" y2="295.6526">
+			<stop  offset="0.2533" style="stop-color:#1FAA65"/>
+			<stop  offset="1" style="stop-color:#007876"/>
+		</linearGradient>
+		<path class="st0" d="M297.64,580.53c-155.99,0-282.89-126.91-282.89-282.89S141.65,14.74,297.64,14.74
+			s282.89,126.91,282.89,282.89S453.63,580.53,297.64,580.53z M297.64,34.64c-145.02,0-263,117.98-263,263s117.98,263,263,263
+			s263-117.98,263-263S442.65,34.64,297.64,34.64z"/>
+	</g>
+	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="42.4985" y1="299.9826" x2="538.8389" y2="295.8975">
+			<stop  offset="0.2533" style="stop-color:#1FAA65"/>
+			<stop  offset="1" style="stop-color:#007876"/>
+		</linearGradient>
+		<path class="st1" d="M433.09,137.61H221.67v320.05h211.42v-110.2l-77.11,78.17l-33.16,6.87l-7.99,8.1
+			c-0.92,0.93-2.41,0.94-3.34,0.02l-0.74-0.73c-0.93-0.92-0.94-2.41-0.02-3.34l7.99-8.1l6.41-33.25l2.23-2.26
+			c0,0,4.88,21.94,31.57,29.71l3.78-3.83c0,0-25.54-5.68-31.33-29.95l101.72-103.11V137.61z M368.43,239.82H235.89v-6h132.55V239.82
+			z M368.43,228.69H235.89v-6h132.55V228.69z M368.43,217.56H235.89v-6h132.55V217.56z M368.43,206.43H235.89v-6h132.55V206.43z"/>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="42.4887" y1="298.7952" x2="538.8291" y2="294.7101">
+			<stop  offset="0.2533" style="stop-color:#1FAA65"/>
+			<stop  offset="1" style="stop-color:#007876"/>
+		</linearGradient>
+		<rect x="162.19" y="137.61" class="st2" width="41.82" height="320.05"/>
+	</g>
+</g>
+</svg>
