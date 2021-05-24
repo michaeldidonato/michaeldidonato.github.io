@@ -215,7 +215,9 @@ a:active {
 
 .me-container {
   padding-top: 100px;
-  background-color: #FFF;
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
 }
 
 .about-me {
@@ -255,22 +257,22 @@ a:active {
 
 .description
  a:link {
-  color: #00C853;
+  color: #EEEEEE;
 }
 
 .description
  a:visited {
-  color: #00C853;
+  color: #EEEEEE;
 }
 
 .description
  a:hover {
-  color: #00C853;
+  color: #EEEEEE;
 }
 
 .description
  a:active {
-  color: #00C853;
+  color: #EEEEEE;
 }
 
 .lotus
@@ -343,6 +345,10 @@ a:link {
   font-family: "Century Gothic", "Arial", "sans-serif";
   color: #EEEEEE;
 }
+
+.philo-container {
+  background-color: #fff;
+  }
 
 .philosophy
  {
