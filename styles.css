@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  color: #fff;
+ background-color: #00C853;  /* verde */
+ padding: 20px 0;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+
+}
+
+.container {
+  position: fixed;
+  top: 0;
+ left: 0;
+ right: 0;
+}
+
+.home {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Century gothic", "Arial", "sans-serif";
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #212121;
+  text-decoration: none;
+}
+a:active {
+  color: #fff;
+}
+
+.intestation {
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 50px;
+}
+
+.intro {
+ width: 900px;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 10px 10px;
+}
+
+.intro1 h1 {
+  font-family: "Century gothic", "Arial", "sans-serif";
+  font-size: 100px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.intro h2 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  line-height: 1.6;
+  font-family: "Century gothic", "Arial", "sans-serif";
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #FFF;
+}
+
+.project1 {
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.project1 h1{
+  margin-bottom: 20px;
+  margin-left: 15px;
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 38px;
+  margin: 0 auto;
+}
+
+.project1 img {
+  width: 230px;
+  border-radius: 125px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.project2 {
+  display: flex;
+  width: 700px;
+  padding-top: 80px;
+  padding-left: 5px;
+}
+
+.project2,
+.spieg,
+.spieg1 {
+  font-family: "Century gothic", "Arial", "sans-serif";
+  font-size: 14px;
+  line-height: 1.6;
+
+}
+
+.project2 p {
+  color: #00C853;
+}
+
+.spieg-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #FFF;
+  padding-bottom: 100px;
+}
+
+.spieg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.spieg img {
+  width: 200px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.spieg h1 {
+  color: #00C853;
+}
+
+.spieg1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-frog {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 5px;
+}
+
+.area-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #EEEEEE;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.icon {
+  width: 250px;
+  height: 250px;
+}
+
+.area-title {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.area-box {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.me-container,
+.philo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #EEEEEE;
+}
+
+.me-container {
+  padding-top: 100px;
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+.about-me {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.description {
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.description h1,
+.skills h1,
+.area-title h1
+ {
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.description h1 {
+  text-align: center;
+}
+
+.description p,
+.area-title p,
+.lotus-par {
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.description
+ a:link {
+  color: #EEEEEE;
+}
+
+.description
+ a:visited {
+  color: #EEEEEE;
+}
+
+.description
+ a:hover {
+  color: #EEEEEE;
+}
+
+.description
+ a:active {
+  color: #EEEEEE;
+}
+
+.lotus
+a:link {
+  color: #00C853;
+}
+
+.lotus
+ a:visited {
+  color: #00C853;
+}
+
+.lotus
+ a:hover {
+  color: #00C853;
+}
+
+.lotus
+ a:active {
+  color: #00C853;
+}
+
+.photo img {
+  width: 250px;
+  border-radius: 125px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.coding,
+.math,
+.music {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00C853;
+  margin: 50px 10px;
+  padding-bottom: 10px;
+}
+
+.coding img,
+.math img,
+.music img {
+  width: 80px;
+}
+
+.coding h2,
+.math h2,
+.music h2 {
+  color:#00E676;
+  font-size: 32px;
+  padding: 25px;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+}
+
+.coding h3,
+.math h3,
+.music h3 {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  color: #EEEEEE;
+}
+
+.philo-container {
+  background-color: #fff;
+  }
+
+.philosophy
+ {
+  display: flex;
+  width: 900px;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.lotus h1 {
+  color: #212121;
+  font-family: "Century Gothic", "Arial", "sans-serif";
+  font-size: 38px;
+}
+
+.lotus img {
+  width: 150px;
+}
+
+.lotus {
+  margin-left: 10px;
+}
+
+.lotus-par {
+  margin-left: 5px;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #00C853;
+  height: 100px;
+}
+
+.message {
+  width: 40px;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .skills {
+      width: 50%;
+    }
+  }
